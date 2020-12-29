@@ -76,3 +76,6 @@ while True:
     if jeeper.engine_working() == False:
         raise EngineFailureError
     break
+
+def test_answer():
+    assert trucker.tires_inflated() == False
